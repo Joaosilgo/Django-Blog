@@ -27,7 +27,7 @@ SECRET_KEY = 'js-kgp_fd8233j0fpioc4)o!1e!u1!1^_fz64_o5ap0k39%n6i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-blog-joaogomes.herokuapp.com']
+ALLOWED_HOSTS = ['https://django-blog-joaogomes.herokuapp.com', 'https://django-blog-app-joaogomes.herokuapp.com']
 
 
 # Application definition
@@ -57,6 +57,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'django_project.urls'
+
 
 TEMPLATES = [
     {
